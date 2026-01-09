@@ -244,5 +244,124 @@ convertToKilometers(9); // -> 14.48406
 ```
 
 ---
+# Extra Practice
+
+---
+
+##  Extra 1 — Corriger les erreurs
+
+Corrige les erreurs dans les fonctions suivantes afin qu’elles fonctionnent correctement.
+
+```javascript
+func square1"x" {
+  return x * x;
+}
+
+functionsquare2 x) {
+  return x * x;
+}
+
+function (x) square3 {
+  return x * x;
+}
+```
+
+---
+
+## Extra 2 — Le plus grand nombre
+
+Écris un programme JavaScript qui accepte **deux nombres entiers** et affiche **le plus grand**.
+
+```javascript
+function largest() {
+  // TODO: your work goes here
+}
+```
+
+---
+
+
+##  Extra 3 — Conversion de température
+
+Pour convertir des **degrés Celsius en Fahrenheit**, utilise la formule suivante :
+
+```
+F = C × 1.8 + 32
+```
+
+Écris une fonction qui convertit une température de Celsius vers Fahrenheit.
+
+```javascript
+convertTemp(12); // -> 53.6
+
+function convertTemp() {
+  // TODO: your work goes here
+}
+```
+
+---
+
+##  Extra 6 — Capitalisation
+
+Crée une fonction appelée **`capitalize`** qui :
+
+* prend en paramètre le nom de ton plat préféré
+* retourne ce mot avec **la première lettre en majuscule**
+
+```javascript
+capitalize("pizza"); // -> "Pizza"
+
+function capitalize() {
+  // TODO: your work goes here
+}
+```
+
+---
+
+## Extra 7 — Facturation (Billing)
+
+Crée une fonction appelée **`billing`** qui prend **3 prix d’articles** et calcule :
+
+* le **prix total** (somme des articles)
+* le **pourboire** (15 % du prix)
+* le **total à payer** (prix + pourboire)
+
+La fonction doit retourner la chaîne suivante :
+
+```text
+"your total is $24.60. thank you for the $3.20 tip"
+```
+
+ *Indice : utilise `toFixed()` pour limiter le nombre de décimales.*
+
+```javascript
+function billing() {
+  // TODO: your work goes here
+}
+```
+
+---
+
+##  Extra 8 — Message personnalisé
+
+Voici un message exemple :
+
+```text
+"Hi, my name is Julia. I love cats. In my spare time, I like to play video games."
+```
+
+Crée une fonction appelée **`awesomeMessage`** qui :
+
+* prend trois paramètres : `firstName`, `interest`, `hobby`
+* utilise la concaténation de chaînes pour créer **ton propre message personnalisé**
+
+```javascript
+function awesomeMessage() {
+  // TODO: your work goes here
+}
+```
+
+---
+
 
 
